@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" conent="Hari Haran">
+    <meta name="description" content="responsive portfolio">
+    <meta name="keywords" content="portfolio">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <header>
+    <!-- nav bar-->
+    <nav>
+        <h1>HARI <span>HARAN</span></h1> 
+            <label class="menu" for="menu">Menu <i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="menu">
+            <input type="checkbox" id="switch-mode">
+            <label class="switch" for="switch-mode" onclick="toggleDarkMode()">Mode <i class="fa-sharp fa-regular fa-lightbulb"></i></label>
+            <ul class="list">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>  
+            </ul>
+        </nav>
+</header>
+ <!-- hemo section -->
+<section id="Home" class="intro">
+    <div class="intro-content">
+    <h1 class="iam">
+        I'm <span>Hari Haran<br></span> a <span>Web Developer</span>
+    </h1>
+    <pre class="description">
+    Welcome to my web developer portfolio! 
+    I'm Hari,a skilledand creative Web Developer 
+    with passion for creating beautiful,responsive,
+     and user-friendly websites.
+    </pre>
+        <button class="hire">Hire Me</button>
+        <button class="cv">Resume</button>
+    <div class="social">
+        <h3>Follow <span>Me..!</span></h3>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+    </div>
+    <div class="img">
+        <img src="images/hari.png" alt="hari">
+    </div>
+</section>
+<!-- about section -->
+<section id="About">
+        <div class="about-image">
+                <img src="images/hari2.jpg" alt="hari2" >
+        </div>
+        <div class="About-content"> 
+                <h2>About <span>Me</span></h2>
+                <p>
+                <span>Embracing Curiosity, Crafting the Future!<br></span>
+                I'm <span>Hari Haran</span>, a student who loves to learn and explore. I'm new to <span>WEB DEVELOPMENT</span>, 
+                but I'm eager and excited to gain more experience. I enjoy making websites and am always up for a challenge.
+                Outside of my studies, I like playing CHESS. It keeps me Positive and inspires me in my learning journey.
+                I'm looking forward to growing my skills and meeting new friends along the way!
+                </p><br> <br>
+                <button class="read">Read More</button>
+        </div> 
+</section>
+<!-- skills section -->
+<section id="skills">
+    <h1 id="head"><span id="se1">My</span> <span id="se2">Skills</span></h1>
+    <div class="skills-container">
+        <div class="linear">
+            <ul>
+                <li>
+                    <h3>HTML</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+                <li>
+                    <h3>CSS</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+                <li>
+                    <h3>JAVASCRIPT</h3>
+                    <span class="bar"><span class="js"></span></span>
+                </li>
+                <li>
+                    <h3>PYTHON</h3>
+                    <span class="bar"><span class="python"></span></span>
+                </li>
+                <li>
+                    <h3>DATA STRUCTURES & ALGORITHMS</h3>
+                    <span class="bar"><span class="dsa"></span></span>
+                </li>
+                <li>
+                    <h3>DBMS</h3>
+                    <span class="bar"><span class="dbms"></span></span>
+                </li>
+            </ul>
+        </div>
+        <div class="skill">
+            <div class="outer" data-percentage="50">
+                <div class="inner">
+                    <div class="name">Creative</div>
+                    <div class="number">50%</div>
+                </div>
+            </div>
+            <h3>Creativity</h3>
+        
+            <div class="outer" data-percentage="85">
+                <div class="inner">
+                    <div class="name">Communi cation</div>
+                    <div class="number">85%</div>
+                </div>
+            </div>
+            <h3>Communication</h3>    
+            <div class="outer" data-percentage="75">
+                <div class="inner">
+                    <div class="name">Problem Solving</div>
+                    <div class="number">75%</div>
+                </div>
+            </div>
+            <h3>Problem Solving</h3>
+        </div>
+    </div>
+</section>
+<!-- services section -->
+<section id="services">
+     <h1 class="ser-head"> <span id="s1">Our</span> <span id="s2"> Services</span></h1>
+    <section class="ser">
+       <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Delving into the digital world, I craft sleek, user-friendly websites. My passion lies in coding solutions that are both efficient and aesthetically pleasing. With each line of code, I strive to bring innovative ideas to life. Join me on this tech adventure, where creativity meets functionality. Let's build the web of tomorrow, today.</p><br>
+      <a href="images/web.pdf" target="_blank">view certificate</a><br>
+        <button >Read More</button>
+       </div>
+       <div class="card">
+        <i class="fab fa-java"></i>
+        <h3>Java Development</h3>
+        <p>Delving into the digital world, I craft sleek, user-friendly websites. My passion lies in coding solutions that are both efficient and aesthetically pleasing. With each line of code, I strive to bring innovative ideas to life. Join me on this tech adventure, where creativity meets functionality. Let's build the web of tomorrow, today.</p><br>
+        <a href="images/java.pdf" target="_blank">view certificate</a><br>
+        <button >Read More</button>
+       </div>
+       <div class="card">
+        <i class="fab fa-python"></i>
+        <h3>Python Programming</h3>
+        <p>Python simplifies complexity, offering a clean and readable syntax. It's the go-to language for data science and machine learning. With a vast ecosystem of libraries, Python accelerates development cycles. Dive into development with Python's intuitive structure. Explore endless possibilities in automation, web, and beyond.</p><br>
+        <a href="images/python infosys.pdf " target="_blank">view certificate</a><br>
+        <button >Read More</button>
+       </div>
+    </section>
+</section>
+<!-- projects section -->
+<section id="projects">
+        <h1 class="pro-h1"><span id="l-p">Latest</span> <span id="l-p1">projects</span></h1>
+    <section class="pro-cards">
+        
+        <div class="image-card">
+            <img src="images/Responsive web.webp" alt="web design">
+            <div class="image-content">
+                <h3>Responsive Design</h3>
+                <p>Responsive design ensures a website’s content looks good and is usable on all devices by 
+                    automatically adjusting its layout.  It employs flexible grids, fluid images, and media queries for optimal adaptability..mobile apporach
+                </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="images/fullstack.jpeg" alt="full stack">
+            <div class="image-content">
+                <h3>Full Stack development</h3>
+                <p>
+                    A full-stack project involves building both the front-end
+                     interface and the back-end server logic, resulting in a complete,
+                      functional web application. It encompasses
+                     all layers of the software development process.
+                </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="images/data.jpeg" alt="data analysis">
+            <div class="image-content">
+                <h3>Data Analysis</h3>
+                <p>
+                    A full-stack project involves building both the front-end
+                     interface and the back-end server logic, resulting in a complete,
+                      functional web application. It encompasses
+                     all layers of the software development process.
+                </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="images/cyber.jpeg" alt="cyber security">
+            <div class="image-content">
+                <h3>Cyber security</h3>
+                <p>
+                    A full-stack project involves building both the front-end
+                     interface and the back-end server logic, resulting in a complete,
+                      functional web application. It encompasses
+                     all layers of the software development process.
+                </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="images/blockchain.webp" alt="blockchain">
+            <div class="image-content">
+                <h3>Block Chain</h3>
+                <p>
+                    A full-stack project involves building both the front-end
+                     interface and the back-end server logic, resulting in a complete,
+                      functional web application. It encompasses
+                     all layers of the software development process.
+                </p>
+            </div>
+        </div>
+        <div class="image-card">
+            <img src="images/ai.jpeg" alt="AI">
+            <div class="image-content">
+                <h3>Artifical Intelligence</h3>
+                <p>
+                    A full-stack project involves building both the front-end
+                     interface and the back-end server logic, resulting in a complete,
+                      functional web application. It encompasses
+                     all layers of the software development process.
+                </p>
+            </div>
+        </div>
+    </section>
+</section>
+<!-- contact section -->
+<section id="contact">
+    <h1 id="con-head">Contact <span>Me!</span></h1>
+    <form>
+        <input id="fname" placeholder="First Name">
+        <input id="lname" placeholder="Last Name"><br>
+        <input id="email" type="email" placeholder="E-mail address">
+        <input id="num" type="number" placeholder="Mobile number"><br>
+        <textarea id="msg" placeholder="write your query"></textarea><br>
+        <button type="button">Submit</button>
+    </form>
+</section>
+<!-- footer section -->
+<footer>
+      <div class="icon" id="icon1">
+        <i class="fa-solid fa-phone-volume"></i>
+        <span class="text-content left">+91 9490361546</span>
+      </div>
+      <p id="fot">&copy; 2024 HARI</p>
+      <div class="icon" id="icon2">
+        <i class="fa-solid fa-envelope"></i>
+        <span class="text-content right">hari@gmail.com</span>
+      </div>
+      <pre class="res">
+        <i class="fa-solid fa-envelope" ><span>: hari@gmail.com</span></i>
+        <i class="fa-solid fa-phone-volume"><span>: +91 9490361546</span></i>
+                <span>&copy; 2024 HARI</span>
+      </pre>
+  </footer>
+  <script>
+    function toggleDarkMode() {
+    const body = document.querySelector('body');
+    body.classList.toggle('dark-mode');
+   }
+  </script>
+  
+</body>
+</html>
